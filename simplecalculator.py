@@ -23,7 +23,7 @@ while calculator != 5:
 
         print(f'The result of the sum is {result}')
 
-        calculator = int(input('Welcome to the program choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
+        calculator = int(input('choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
 
     elif calculator == 2 :
 
@@ -34,7 +34,7 @@ while calculator != 5:
 
         print(f'The result of the subtraction is: {result}')
 
-        calculator = int(input('Welcome to the program choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
+        calculator = int(input('choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
 
     elif calculator == 3 :
 
@@ -44,7 +44,7 @@ while calculator != 5:
         result = div(number1, number2)
         print(f'The result of the division is: {result}')
 
-        calculator = int(input('Welcome to the program choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
+        calculator = int(input('choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
 
     elif calculator == 4:
 
@@ -54,11 +54,11 @@ while calculator != 5:
         result = mult(number1, number2)
         print(f'The result of the multiplication is: {result}')
 
-        calculator = int(input('Welcome to the program choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
+        calculator = int(input('choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
 
     elif calculator > 5:
 
         print('That option dont exist')
-        calculator = int(input('Welcome to the program choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
+        calculator = int(input('choose one between the next options: \n1 - Sum \n2 - Subtraction \n3 - Division \n4 - Multiplication \n5 - leave the program \nOption: '))
 
 print('You leave the program')
