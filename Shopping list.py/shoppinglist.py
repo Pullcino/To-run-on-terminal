@@ -38,7 +38,7 @@ while question != 4:
 
         for item in to_buy:
 
-            print("- ", to_buy)
+            print("- ", item)
 
         question = int(input("Choose one option \n1 - add item to list\n2 - Remove item from list\n3 - Display shopping list\n4 - Leave shopping list\n"))
 
