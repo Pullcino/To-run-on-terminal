@@ -26,7 +26,7 @@ while question != 4:
 
                 to_buy.remove(item)
 
-                print(f"You remove the item now that is your list: {to_buy}")
+                print(f"You remove the item ")
 
             else:
 
