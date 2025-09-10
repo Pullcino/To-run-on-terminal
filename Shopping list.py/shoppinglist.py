@@ -8,23 +8,37 @@ while question != 4:
 
         item = input("Enter the desired item: ")
 
-        to_buy = item.join(to_buy)
+        to_buy.append(item)
 
         question = int(input("Choose one option \n1 - add item to list\n2 - Remove item from list\n3 - Display shopping list\n4 - Leave shopping list\n"))
 
     elif question == 2:
 
-        print(f"You have this itens on the list {to_buy}")
+        if len(to_buy) == 0:
 
-        item = input("Enter the desired item you wanna remove: ")
+            print("The list is empty")
 
-        to_buy.remove(item)
+        else:
+
+            item = input("type the item you want to remove")
+
+            if item in to_buy:
+
+                to_buy.remove(item)
+
+                print(f"You remove the item now that is your list: {to_buy}")
+
+            else:
+
+                print("That item is not on the list")
 
         question = int(input("Choose one option \n1 - add item to list\n2 - Remove item from list\n3 - Display shopping list\n4 - Leave shopping list\n"))
 
     elif question == 3:
 
-        print(f"That is your shopping list {to_buy}")
+        for item in to_buy:
+
+            print("- ", to_buy)
 
         question = int(input("Choose one option \n1 - add item to list\n2 - Remove item from list\n3 - Display shopping list\n4 - Leave shopping list\n"))
 
