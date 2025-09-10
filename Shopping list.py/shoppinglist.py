@@ -20,7 +20,7 @@ while question != 4:
 
         else:
 
-            item = input("type the item you want to remove")
+            item = input("type the item you want to remove: ")
 
             if item in to_buy:
 
