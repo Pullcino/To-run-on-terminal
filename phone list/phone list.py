@@ -66,6 +66,12 @@ def remove_contact(contacts):
 
         print("This contact dont exist")
 
+def show_contacts(contacts):
+
+    for name, number in contacts.items():
+
+        print(f"Name: {name} | Number:{number}")
+
 
 
 def main():
@@ -90,7 +96,13 @@ def main():
 
             remove_contact(contacts)
 
-        elif
+        elif option == "4":
+
+            show_contacts(contacts)
+
+        elif option == "5":
+
+            break
 
         
 
