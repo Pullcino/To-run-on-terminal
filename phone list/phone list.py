@@ -1,6 +1,6 @@
 def show_menu():
 
-    print("Menu of the contact list")
+    print("\nMenu of the contact list")
     print("1 - Add a contact")
     print("2 - change contact")
     print("3 - remove contact")
@@ -14,7 +14,7 @@ def add_contact(contacts):
 
     contacts[name] = number
 
-    print("Contact added with sucess")
+    print("\nContact added with sucess")
 
 def change_contact(contacts):
 
@@ -54,7 +54,17 @@ def change_contact(contacts):
 
 def remove_contact(contacts):
 
-    question = input("Which contact")
+    question = input("\nWhich contact you want to remove")
+
+    if question in contacts:
+
+        contacts.pop(question)
+
+        print("\nThe contact was successfully removed")
+
+    else:
+
+        print("This contact dont exist")
 
 
 
@@ -66,7 +76,7 @@ def main():
 
         show_menu()
 
-        option = input("Choose one option: ")
+        option = input("\nChoose one option: ")
 
         if option == "1":
 
@@ -75,6 +85,14 @@ def main():
         elif option == "2":
 
             change_contact(contacts)
+
+        elif option == "3":
+
+            remove_contact(contacts)
+
+        elif
+
+        
 
 main()
 
