@@ -104,9 +104,8 @@ def main():
 
             break
 
-        
 
 main()
-
+print("\nYou close the program")
         
 
