@@ -25,7 +25,7 @@ class car :
 
     def show_info(self):
 
-        print(f"Brand: {self.Brand}, Model: {self.Model}, Color: {self.Color}")
+        print(f"Brand: {self.Brand}, Model: {self.Model}, Color: {self.Color}, Speed: {self.Speed}")
 
 
 car_list = []
