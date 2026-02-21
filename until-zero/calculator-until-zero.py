@@ -12,4 +12,6 @@ while number > 0:
 
     print(sub(number, new_number))
 
-    number
+    number -= new_number
+
+print("Practice finished")
